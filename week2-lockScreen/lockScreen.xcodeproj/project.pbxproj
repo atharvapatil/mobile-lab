@@ -12,9 +12,9 @@
 		FA59421E2214B85D00866E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA59421C2214B85D00866E33 /* Main.storyboard */; };
 		FA5942202214B85F00866E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA59421F2214B85F00866E33 /* Assets.xcassets */; };
 		FA5942232214B85F00866E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5942212214B85F00866E33 /* LaunchScreen.storyboard */; };
-		FA59422B2214DA9400866E33 /* user-image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA59422A2214DA9400866E33 /* user-image.png */; };
-		FA59422D2215040600866E33 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = FA59422C2215040600866E33 /* success.png */; };
-		FA59422F2215041000866E33 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = FA59422E2215041000866E33 /* error.png */; };
+		FA81E0DE22151F4E00EFBD8D /* user-image.png in Resources */ = {isa = PBXBuildFile; fileRef = FA81E0DD22151F4E00EFBD8D /* user-image.png */; };
+		FA81E0E022151F5A00EFBD8D /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = FA81E0DF22151F5A00EFBD8D /* error.png */; };
+		FA81E0E222151F6700EFBD8D /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = FA81E0E122151F6700EFBD8D /* success.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,9 @@
 		FA59421F2214B85F00866E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5942222214B85F00866E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5942242214B85F00866E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA59422A2214DA9400866E33 /* user-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-image.png"; path = "../../../../../user-image.png"; sourceTree = "<group>"; };
-		FA59422C2215040600866E33 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = success.png; path = ../../../../../success.png; sourceTree = "<group>"; };
-		FA59422E2215041000866E33 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = ../../../../../error.png; sourceTree = "<group>"; };
+		FA81E0DD22151F4E00EFBD8D /* user-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user-image.png"; path = "../../../../user-image.png"; sourceTree = "<group>"; };
+		FA81E0DF22151F5A00EFBD8D /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = ../../../../error.png; sourceTree = "<group>"; };
+		FA81E0E122151F6700EFBD8D /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = success.png; path = ../../../../success.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,9 @@
 				FA59421F2214B85F00866E33 /* Assets.xcassets */,
 				FA5942212214B85F00866E33 /* LaunchScreen.storyboard */,
 				FA5942242214B85F00866E33 /* Info.plist */,
-				FA59422A2214DA9400866E33 /* user-image.png */,
-				FA59422C2215040600866E33 /* success.png */,
-				FA59422E2215041000866E33 /* error.png */,
+				FA81E0DD22151F4E00EFBD8D /* user-image.png */,
+				FA81E0DF22151F5A00EFBD8D /* error.png */,
+				FA81E0E122151F6700EFBD8D /* success.png */,
 			);
 			path = lockScreen;
 			sourceTree = "<group>";
@@ -131,10 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA59422B2214DA9400866E33 /* user-image.png in Resources */,
+				FA81E0DE22151F4E00EFBD8D /* user-image.png in Resources */,
+				FA81E0E222151F6700EFBD8D /* success.png in Resources */,
+				FA81E0E022151F5A00EFBD8D /* error.png in Resources */,
 				FA5942232214B85F00866E33 /* LaunchScreen.storyboard in Resources */,
-				FA59422F2215041000866E33 /* error.png in Resources */,
-				FA59422D2215040600866E33 /* success.png in Resources */,
 				FA5942202214B85F00866E33 /* Assets.xcassets in Resources */,
 				FA59421E2214B85D00866E33 /* Main.storyboard in Resources */,
 			);
